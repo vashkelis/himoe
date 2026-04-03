@@ -238,4 +238,4 @@ Choose and add a license before public release. MIT is a common choice for resea
 
 ## Status
 
-Research prototype. Experimental code under active development. Thanks.
+Research prototype. Experimental code under active development.

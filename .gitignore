@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+.colab/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Training outputs
+work_dirs/
+outputs/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Figures and generated artifacts
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# Generated configs
+configs/generated/*
+!configs/generated/.gitkeep
+
+# Dataset directories
+data/
+datasets/
+
+# Large archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.7z
+
+# Caches
+.cache/
+.pytest_cache/
+.mypy_cache/
+ruff_cache/
+coverage/
+htmlcov/
+
+# Environment files
+.env
+.env.*
+
+# OS-generated files
+Thumbs.db

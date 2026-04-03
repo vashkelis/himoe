@@ -234,7 +234,7 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
-Choose and add a license before public release. MIT is a common choice for research code.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Status
 

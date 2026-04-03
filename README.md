@@ -175,13 +175,6 @@ Expected Objects365 layout depends on the specific preprocessing pipeline used i
 - number-of-experts ablations
 - MoE placement ablations
 
-## Example Results
-
-| Method | AP | APs |
-|---|---:|---:|
-| DINO | 51.3 | 32.1 |
-| HI-MoE | 53.0 | 35.4 |
-
 ## Expert Analysis and Visualization
 
 Generate the expert usage heatmap with:

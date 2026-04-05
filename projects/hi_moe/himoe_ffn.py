@@ -1,3 +1,14 @@
+# Patch inspect.getsource to handle PyTorch builtins without source
+# Must be applied BEFORE importing mmengine/torch that triggers the issue
+import inspect
+_original_getsource = inspect.getsource
+def _patched_getsource(obj):
+    try:
+        return _original_getsource(obj)
+    except (OSError, TypeError):
+        return "def _torch_builtin_(): pass"
+inspect.getsource = _patched_getsource
+
 import math
 from typing import Optional, Dict
 
